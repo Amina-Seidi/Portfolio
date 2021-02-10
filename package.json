@@ -9,7 +9,7 @@
   "homepage": "https://amina-seidi.github.io/Portfolio/",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "npm run build && gh-pages -d build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public && npm run build && gh-pages -d build",
     "develop": "gatsby develop",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
