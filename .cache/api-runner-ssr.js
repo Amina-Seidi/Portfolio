@@ -1,22 +1,4 @@
-var plugins = [{
-      plugin: require('/Users/aminaseidi/Documents/GitHub/Portfolio/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
-      options: {"plugins":[],"extensions":[".mdx"],"defaultLayouts":{},"gatsbyRemarkPlugins":[],"remarkPlugins":[],"rehypePlugins":[],"mediaTypes":["text/markdown","text/x-markdown"]},
-    },{
-      plugin: require('/Users/aminaseidi/Documents/GitHub/Portfolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
-      plugin: require('/Users/aminaseidi/Documents/GitHub/Portfolio/node_modules/gatsby-plugin-theme-ui/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
-      plugin: require('/Users/aminaseidi/Documents/GitHub/Portfolio/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
-      options: {"plugins":[],"head":false,"anonymize":false,"respectDNT":false,"exclude":[],"pageTransitionDelay":0},
-    },{
-      plugin: require('/Users/aminaseidi/Documents/GitHub/Portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Cara - @lekoarts/gatsby-theme-cara","short_name":"Cara","description":"Playful and Colorful One-Page portfolio featuring Parallax effects and animations","start_url":"/","background_color":"#141821","theme_color":"#f6ad55","display":"standalone","cache_busting_mode":"query","include_favicon":true,"legacy":true,"theme_color_in_head":true,"cacheDigest":null},
-    },{
-      plugin: require('/Users/aminaseidi/Documents/GitHub/Portfolio/node_modules/gatsby-plugin-offline/gatsby-ssr'),
-      options: {"plugins":[]},
-    }]
+var plugins = []
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {
